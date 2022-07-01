@@ -17,7 +17,6 @@ public class CourierDependTest {
     @BeforeClass
     public static void setUp() {
         RestAssured.baseURI = "http://qa-scooter.praktikum-services.ru";
-        //RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
         cleanup();
     }
 
